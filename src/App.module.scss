@@ -10,12 +10,12 @@ body {
       max-width: 700px;
       margin-bottom: 75px;
     }
-    ul{
-      margin:0;
-      padding:0;
-      li{
-        margin-bottom:20px;
-        padding:0;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        margin-bottom: 20px;
+        padding: 0;
       }
     }
     a,
@@ -23,6 +23,19 @@ body {
     a:visited {
       text-decoration: none;
       color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    .App {
+      margin: 4%;
+      font-size: 20px;
+      img {
+        max-width: 100%;
+        margin-bottom: 40px;
+      }
     }
   }
 }

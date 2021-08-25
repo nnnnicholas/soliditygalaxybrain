@@ -15,7 +15,7 @@ function App() {
   return (
     <div className={style.App}>
       <div id={style.imageContainer}>
-        <img src={Art} />
+        <a href="https://anchor.fm/soliditygalaxybrain"> <img src={Art} /></a>
       </div>
       <div id="linkContainer">
         <ul>
