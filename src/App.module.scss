@@ -1,18 +1,26 @@
 body {
-  background-color: #030320;
+  background-color: #020213;
+  color: rgb(206, 206, 206);
+  font-size: 28px;
   .App {
     margin: 80px;
     display: flex;
     flex-flow: column nowrap;
     // align-items: center;
-    font-size: 28px;
+    div {
+      margin-bottom: 60px;
+      max-width:700px;
+    }
+    // .description{
+    //   max-width:700px;
+    // }
     img {
       max-width: 700px;
-      margin-bottom: 75px;
     }
     ul {
       margin: 0;
       padding: 0;
+      list-style: none;
       li {
         margin-bottom: 20px;
         padding: 0;
@@ -22,7 +30,7 @@ body {
     a:hover,
     a:visited {
       text-decoration: none;
-      color: white;
+      color: inherit;
     }
   }
 }
@@ -32,9 +40,11 @@ body {
     .App {
       margin: 4%;
       font-size: 20px;
+      div{
+        margin-bottom: 40px;
+      }
       img {
         max-width: 100%;
-        margin-bottom: 40px;
       }
     }
   }

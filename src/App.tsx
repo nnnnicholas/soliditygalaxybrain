@@ -17,6 +17,7 @@ function App() {
       <div id={style.imageContainer}>
         <a href="https://anchor.fm/soliditygalaxybrain"> <img src={Art} /></a>
       </div>
+      <div className={style.description}>Conversations with Solidity developers about the contracts they've written and the contracts they admire.</div>
       <div id="linkContainer">
         <ul>
           <li>
