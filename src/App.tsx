@@ -14,25 +14,14 @@ function App() {
   // Return the App component.
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://preactjs.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Preact
-          </a>
-        </p>
-      </header>
+      <h1>
+        Solidity Galaxy Brain
+      </h1>
+      <div>
+        <a href="https://anchor.fm/soliditygalaxybrain">subscribe to podcast</a>
+        <br/>
+        <a href="https://twitter.com/nnnnicholas">follow @nnnnicholas on twitter</a>
+      </div>
     </div>
   );
 }
