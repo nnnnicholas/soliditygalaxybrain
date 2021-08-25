@@ -1,6 +1,11 @@
+@font-face{
+  font-family: 'NimbusSanL-Regu';
+  src: local("NimbusSanL-Regu"), url('fonts/NimbusSanL-Regu.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'NimbusSanL-Regu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

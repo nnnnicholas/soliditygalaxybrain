@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
-import logo from './logo.png';
-import './App.css';
+import style from './App.module.scss';
+import Art from '../public/podcastArtwork.png';
 
 function App() {
   // Create the count state.
@@ -13,14 +13,19 @@ function App() {
   }, [count, setCount]);
   // Return the App component.
   return (
-    <div className="App">
-      <h1>
-        Solidity Galaxy Brain
-      </h1>
-      <div>
-        <a href="https://anchor.fm/soliditygalaxybrain">subscribe to podcast</a>
-        <br/>
-        <a href="https://twitter.com/nnnnicholas">follow @nnnnicholas on twitter</a>
+    <div className={style.App}>
+      <div id={style.imageContainer}>
+        <img src={Art} />
+      </div>
+      <div id="linkContainer">
+        <ul>
+          <li>
+            <a href="https://anchor.fm/soliditygalaxybrain">🎧 Subscribe to podcast</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/nnnnicholas">🦜 Follow @nnnnicholas on twitter</a>
+          </li>
+        </ul>
       </div>
     </div>
   );

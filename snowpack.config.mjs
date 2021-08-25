@@ -7,6 +7,7 @@ export default {
   plugins: [
     '@prefresh/snowpack',
     '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-sass',
     [
       '@snowpack/plugin-typescript',
       {
