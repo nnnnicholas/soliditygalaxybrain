@@ -5,6 +5,7 @@ import Art from '../public/podcastArtwork.png';
 import Spotify from '../public/spotify.png';
 import Anchor from '../public/anchor.png';
 import RSS from '../public/rss.png';
+import Apple from '../public/apple.png';
 
 
 function App() {
@@ -25,6 +26,13 @@ function App() {
             <p>
               <a href="https://anchor.fm/soliditygalaxybrain"><img className={style.rss} src={Anchor} /> Anchor</a>
             </p>
+          </li>
+          <li>
+            <p> 
+              <a href="">
+                <img className={style.rss} src={Apple} /> Apple Podcasts (coming soon)
+                </a>
+                </p>
           </li>
           <li>
             <p> <a href="https://anchor.fm/s/68fdf56c/podcast/rss"><img className={style.rss} src={RSS} /> RSS</a></p>
