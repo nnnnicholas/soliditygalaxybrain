@@ -23,16 +23,16 @@ function App() {
             </p>
           </li>
           <li>
-            <p>
-              <a href="https://anchor.fm/soliditygalaxybrain"><img className={style.rss} src={Anchor} /> Anchor</a>
-            </p>
-          </li>
-          <li>
             <p> 
               <a href="">
                 <img className={style.rss} src={Apple} /> Apple Podcasts (coming soon)
                 </a>
                 </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://anchor.fm/soliditygalaxybrain"><img className={style.rss} src={Anchor} /> Anchor</a>
+            </p>
           </li>
           <li>
             <p> <a href="https://anchor.fm/s/68fdf56c/podcast/rss"><img className={style.rss} src={RSS} /> RSS</a></p>
