@@ -6,7 +6,8 @@ import Spotify from '../public/spotify.png';
 import Anchor from '../public/anchor.png';
 import RSS from '../public/rss.png';
 import Apple from '../public/apple.png';
-
+import PocketCasts from '../public/pocketcasts.png';
+import Breaker from '../public/breaker.png';
 
 function App() {
   return (
@@ -23,11 +24,21 @@ function App() {
             </p>
           </li>
           <li>
-            <p> 
+            <p>
               <a href="">
                 <img className={style.rss} src={Apple} /> Apple Podcasts (coming soon)
-                </a>
-                </p>
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.breaker.audio/solidity-galaxy-brain"><img className={style.rss} src={Breaker} /> Breaker</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://pca.st/xvxg2ynd"><img className={style.rss} src={PocketCasts} /> PocketCasts</a>
+            </p>
           </li>
           <li>
             <p>

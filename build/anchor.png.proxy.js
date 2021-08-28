@@ -1,0 +1,1 @@
+export default "/anchor.png";
