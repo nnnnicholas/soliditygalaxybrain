@@ -8,6 +8,8 @@ import RSS from '../public/rss.png';
 import Apple from '../public/apple.png';
 import PocketCasts from '../public/pocketcasts.png';
 import Breaker from '../public/breaker.png';
+import Overcast from '../public/overcast.png';
+
 
 function App() {
   return (
@@ -25,11 +27,16 @@ function App() {
           </li>
           <li>
             <p>
-              <a href="">
-                <img className={style.rss} src={Apple} /> Apple Podcasts (coming soon)
+              <a href="https://podcasts.apple.com/us/podcast/solidity-galaxy-brain/id1584680739">
+                <img className={style.rss} src={Apple} /> Apple Podcasts
               </a>
             </p>
           </li>
+          {/* <li>
+            <p>
+              <a href=""><img className={style.rss} src={Overcast} /> Overcast</a>
+            </p>
+          </li> */}
           <li>
             <p>
               <a href="https://www.breaker.audio/solidity-galaxy-brain"><img className={style.rss} src={Breaker} /> Breaker</a>
