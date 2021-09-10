@@ -32,11 +32,11 @@ function App() {
               </a>
             </p>
           </li>
-          {/* <li>
+          <li>
             <p>
-              <a href=""><img className={style.rss} src={Overcast} /> Overcast</a>
+              <a href="https://overcast.fm/+ytU17h3l8"><img className={style.rss} src={Overcast} /> Overcast</a>
             </p>
-          </li> */}
+          </li>
           <li>
             <p>
               <a href="https://www.breaker.audio/solidity-galaxy-brain"><img className={style.rss} src={Breaker} /> Breaker</a>
